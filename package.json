@@ -1,0 +1,27 @@
+{
+  "name": "peer",
+  "version": "0.0.1",
+  "description": "a peer to peer lending netowkr secured by dapps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpah121/peer.git"
+  },
+  "keywords": [
+    "p2p",
+    "lending",
+    "dapp"
+  ],
+  "author": "jacob",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/alpah121/peer/issues"
+  },
+  "homepage": "https://github.com/alpah121/peer#readme",
+  "dependencies": {
+    "web3": "^1.2.6"
+  }
+}
