@@ -7,8 +7,7 @@ var session = require('express-session');
 var passport = require('passport');
 var flash = require('connect-flash');
 
-var routes = require('./routes/index.js');
-var api = require('./routes/api.js');
+var routes = require('./routes/manifest.js');
 
 var app = express();
 
@@ -33,6 +32,6 @@ app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 app.use('/', routes);
-app.use('/api', api);
+
 
 app.listen(3000, () => console.log('Listening on port 3000'));
